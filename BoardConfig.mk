@@ -32,6 +32,9 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
 TOUCH_BOOST_DEBUG := false
 
+TARGET_KERNEL_SOURCE := kernel/lge/mako
+TARGET_KERNEL_CONFIG := semaphore_mako_defconfig
+
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
 BOARD_USES_FLUENCE_INCALL := true
