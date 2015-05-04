@@ -34,6 +34,7 @@ TOUCH_BOOST_DEBUG := false
 
 TARGET_KERNEL_SOURCE := kernel/lge/mako
 TARGET_KERNEL_CONFIG := semaphore_mako_defconfig
+TARGET_KERNEL_ARCH := arm
 
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
